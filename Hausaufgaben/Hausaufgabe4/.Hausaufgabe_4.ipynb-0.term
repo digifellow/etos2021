@@ -1,36 +1,0 @@
-]0;~/etos-physik/Hausaufgaben/Hausaufgabe_4[01;34m~/etos-physik/Hausaufgaben/Hausaufgabe_4[00m$ mv anleitung_tutoren.ipynb anleitung_tutoren.mdtxt anleitung_tutoren.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano anleitung_tutoren.txt[1Ptouch Hausaufgabe_X.ipynbls[Kmkdir staticcp ../Hausaufgabe_3/skip_kernel_extension.py .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[22Pd Hausaufgabe_template/mkdir Hausaufgabe_templatels[Kcd ..nbscript Hausaufgabe_3.ipynb ls[Knbscript Hausaufgabe_3.ipynb ls[Knbscript -h[Kcat ~/.bashrcls[Kcd etos-physik/Hausaufgaben/Hausaufgabe_3/ls[K /home/user/etos-physik/Übungsaufgaben/Übung2/skip_kernel_extension.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[K[2PlsexitclearGIT_SSH_COMMAND='ssh -i /home/user/.ssh/id_rsa2' git pull[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chistory | grep SSH[K[10Pgit pullcd etos-physik-final/..[Kgit status[2Ppullcd etos-physikexit[Kgit pullshstatuscommit -m "merged"[12Pstatusadd Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb [4@solution[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Knano Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb[3Ptask.ipynb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[Kcd etos-physikexit[Kcd etos-physik[4Pgit statusnano Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[Kcd etos-physikexit[Knbscript -h[3Pgit pullnbscript -h[3Pgit pullnbscript -h[3Pgit pullcd notebook-splitter/nbscript Uebung2.ipynbls[Knbscript Uebung2.ipynb[6Psource ~/.bashrc[2Pnano[C[C[C[C[C[C[C[C[C[Cbscript Uebung2.ipynb --nbsplit "cat"ls[Knbscript Uebung2.ipynb --nbsplit "cat"echo"[Kls[Kcd etos-physik/Übungsaufgaben/Übung2/exit[Kgit pullcd notebook-splitter/[13Pgit pullcd notebook-splitter/[13Pgit pull[4Pexitcd etos-physik/Übungsaufgaben/Übung2/ls[Knbscript Uebung2.ipynb --nbsplit "echo"[1Pcat"ls[Knbscript Uebung2.ipynb --nbsplit "cat"[24Pano ~/.bashrc[2@source[C[C[C[C[C[C[C[C[C[Cnbscript Uebung2.ipynbls[Knbscript Uebung2.ipynb[1Pcd notebook-splitter/[13Pgit pullnbscript -h[3Pgit pullnbscript -h[3Pgit pullnbscript -h[7Pexitcd etos-physik[4Pgit statusnano Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb solution.ipynb[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit status[Kadd Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb [4Ptask[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cstatus[Kcommit -m "merged"[12Pstatus[2Ppushll[4Pexitcd etos-physik[6Pgit pullstatus[5Pcd ..etos-physik-final/[13Pgit pullhistory | grep SSHGIT_SSH_COMMAND='ssh -i /home/user/.ssh/id_rsa2' git pull[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cclear[K[1Pexit[2Plsexitls /home/user/etos-physik/Übungsaufgaben/Übung2/skip_kernel_extension.py[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kcd etos-physik/Hausaufgaben/Hausaufgabe_3/ls[Kcat ~/.bashrc[4Pnbscript -hls[Knbscript Hausaufgabe_3.ipynb ls[Knbscript Hausaufgabe_3.ipynb cd ..[K[3Plsmkdir Hausaufgabe_template[2Pcd Hausaufgabe_template/p ../Hausaufgabe_3/skip_kernel_extension.py .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir static[Kls[Ktouch Hausaufgabe_X.ipynbnano anleitung_tutoren.txtls[Kmv anleitung_tutoren.txt anleitung_tutoren.ipynb[1Pipynb anleitung_tutoren.md[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K{
->  "exercise": "task"
-> }[K
-Display all 5714 possibilities? (y or n)
-> 
-> n
-> n
-> n
-> clear
-> exit
-> 
-Display all 5714 possibilities? (y or n)
-> 
-> n
-> 
-Display all 5714 possibilities? (y or n)
-> 
-> 
-Display all 5714 possibilities? (y or n)
-> 
-> ��≈[K[K[K
-Display all 5714 possibilities? (y or n)
-> 
-> close
-> 
-Display all 5714 possibilities? (y or n)
-> 
-> .x[K[K
-Display all 5714 possibilities? (y or n)
-> 
-> cd
-> q:ei[Kxit
-> 
-> 
-Display all 5714 possibilities? (y or n)
-> 

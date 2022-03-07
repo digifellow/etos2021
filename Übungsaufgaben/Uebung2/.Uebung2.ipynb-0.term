@@ -1,174 +1,0 @@
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ nbscript Uebung2.ipynb 
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ nbscript -h
-usage: convert.py [-h] [--output-task [OUTPUT_TASK]]
-                  [--output-solution [OUTPUT_SOLUTION]] [--basekey BASEKEY]
-                  [--nbsplit [NBSPLIT]]
-                  infile
-
-Convert a notebook containing both solutions and tasks into two more notebooks. Solution and task cells need to be marked with the metadata {"exercise": "solution"} and {"exercise": "task"}.
-
-positional arguments:
-  infile                Input file to convert.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --output-task [OUTPUT_TASK]
-                        Output file for task version.
-  --output-solution [OUTPUT_SOLUTION]
-                        Output file for solution version.
-  --basekey BASEKEY     Basekey to use for discriminating the tags (default: exercise)
-  --nbsplit [NBSPLIT]   command to run nbspliiter (default: nbsplitter)
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ nbscript -h
-usage: convert.py [-h] [--output-task [OUTPUT_TASK]]
-                  [--output-solution [OUTPUT_SOLUTION]] [--basekey BASEKEY]
-                  [--nbsplit [NBSPLIT]]
-                  infile
-
-		Convert a notebook containing both solutions and tasks into two more notebooks. 
-        Solution and task cells need to be marked with the metadata {"exercise": "solution"} and {"exercise": "task"}.
-        Also removes the line/cell magics '%%skip' and '%load_ext skip_kernel_extension'. 
-
-positional arguments:
-  infile                Input file to convert.
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --output-task [OUTPUT_TASK]
-                        Output file for task version.
-  --output-solution [OUTPUT_SOLUTION]
-                        Output file for solution version.
-  --basekey BASEKEY     Basekey to use for discriminating the tags (default: exercise)
-  --nbsplit [NBSPLIT]   command to run nbspliiter (default: nbsplitter)
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ [K]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ ls
-Test_interactive_plot1.ipynb  Uebung2-Copy1.ipynb  Uebung2.ipynb  Uebung2_solution.ipynb  Uebung2_task.ipynb  [0m[01;34m__pycache__[0m  exmodul.py  interactive_plot1.py  skip_kernel_extension.py  [01;34mstatic[0m
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ nbscript Uebung2.ipynb 
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git status
-On branch work
-Your branch is up to date with 'origin/work'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../../Hausaufgaben/Hausaufgabe_2/.Hausaufgabe2.ipynb-0.term[m
-	[31mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2.ipynb[m
-	[31mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb[m
-	[31mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb[m
-	[31mmodified:   ../../testing/.2020-05-04-145912_installbokeh.term-0.term[m
-	[31mmodified:   Uebung2.ipynb[m
-	[31mmodified:   Uebung2_solution.ipynb[m
-	[31mmodified:   Uebung2_task.ipynb[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../../cocalc_config/[m
-	[31m../../remove_solution.py[m
-	[31m../../workflow.ipynb[m
-	[31m.Uebung2.ipynb-0.term[m
-	[31mTest_interactive_plot1.ipynb[m
-	[31mUebung2-Copy1.ipynb[m
-	[31minteractive_plot1.py[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git add ../../Hausaufgaben/[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git commit -m "[K[K[K[K[K[K[K[K[K[K[K[K status
-On branch work
-Your branch is up to date with 'origin/work'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   ../../Hausaufgaben/Hausaufgabe_2/.Hausaufgabe2.ipynb-0.term[m
-	[32mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2.ipynb[m
-	[32mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb[m
-	[32mmodified:   ../../Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb[m
-	[32mnew file:   ../../cocalc_config/2020-05-04-145912_installbokeh.term[m
-	[32mnew file:   ../../cocalc_config/test_remove.ipynb[m
-	[32mnew file:   ../../cocalc_config/test_remove_solution.ipynb[m
-	[32mnew file:   ../../remove_solution.py[m
-	[32mmodified:   ../../testing/.2020-05-04-145912_installbokeh.term-0.term[m
-	[32mnew file:   ../../workflow.ipynb[m
-	[32mnew file:   .Uebung2.ipynb-0.term[m
-	[32mnew file:   Test_interactive_plot1.ipynb[m
-	[32mnew file:   Uebung2-Copy1.ipynb[m
-	[32mmodified:   Uebung2.ipynb[m
-	[32mmodified:   Uebung2_solution.ipynb[m
-	[32mmodified:   Uebung2_task.ipynb[m
-	[32mnew file:   interactive_plot1.py[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   .Uebung2.ipynb-0.term[m
-
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git add[K[K[K[Kco[K[K commit -m "oc[K[Kcocalc snapshot"
-[work c63fc42] cocalc snapshot
- 17 files changed, 1747 insertions(+), 830 deletions(-)
- create mode 100644 cocalc_config/2020-05-04-145912_installbokeh.term
- create mode 100644 cocalc_config/test_remove.ipynb
- create mode 100644 cocalc_config/test_remove_solution.ipynb
- create mode 100644 remove_solution.py
- create mode 100644 workflow.ipynb
- create mode 100644 "\303\234bungsaufgaben/\303\234bung2/.Uebung2.ipynb-0.term"
- create mode 100644 "\303\234bungsaufgaben/\303\234bung2/Test_interactive_plot1.ipynb"
- create mode 100644 "\303\234bungsaufgaben/\303\234bung2/Uebung2-Copy1.ipynb"
- rewrite "\303\234bungsaufgaben/\303\234bung2/Uebung2_solution.ipynb" (94%)
- create mode 100644 "\303\234bungsaufgaben/\303\234bung2/interactive_plot1.py"
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git push
-To git-ce.rwth-aachen.de:joern.stoehler/etos-physik.git
- ! [rejected]        work -> work (fetch first)
-error: failed to push some refs to 'git@git-ce.rwth-aachen.de:joern.stoehler/etos-physik.git'
-hint: Updates were rejected because the remote contains work that you do
-hint: not have locally. This is usually caused by another repository pushing
-hint: to the same ref. You may want to first integrate the remote changes
-hint: (e.g., 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git pp[Kull
-remote: Enumerating objects: 19, done.[K
-remote: Counting objects:   5% (1/19)[Kremote: Counting objects:  10% (2/19)[Kremote: Counting objects:  15% (3/19)[Kremote: Counting objects:  21% (4/19)[Kremote: Counting objects:  26% (5/19)[Kremote: Counting objects:  31% (6/19)[Kremote: Counting objects:  36% (7/19)[Kremote: Counting objects:  42% (8/19)[Kremote: Counting objects:  47% (9/19)[Kremote: Counting objects:  52% (10/19)[Kremote: Counting objects:  57% (11/19)[Kremote: Counting objects:  63% (12/19)[Kremote: Counting objects:  68% (13/19)[Kremote: Counting objects:  73% (14/19)[Kremote: Counting objects:  78% (15/19)[Kremote: Counting objects:  84% (16/19)[Kremote: Counting objects:  89% (17/19)[Kremote: Counting objects:  94% (18/19)[Kremote: Counting objects: 100% (19/19)[Kremote: Counting objects: 100% (19/19), done.[K
-remote: Compressing objects:   5% (1/18)[Kremote: Compressing objects:  11% (2/18)[Kremote: Compressing objects:  16% (3/18)[Kremote: Compressing objects:  22% (4/18)[Kremote: Compressing objects:  27% (5/18)[Kremote: Compressing objects:  33% (6/18)[Kremote: Compressing objects:  38% (7/18)[Kremote: Compressing objects:  44% (8/18)[Kremote: Compressing objects:  50% (9/18)[Kremote: Compressing objects:  55% (10/18)[Kremote: Compressing objects:  61% (11/18)[Kremote: Compressing objects:  66% (12/18)[Kremote: Compressing objects:  72% (13/18)[Kremote: Compressing objects:  77% (14/18)[Kremote: Compressing objects:  83% (15/18)[Kremote: Compressing objects:  88% (16/18)[Kremote: Compressing objects:  94% (17/18)[Kremote: Compressing objects: 100% (18/18)[Kremote: Compressing objects: 100% (18/18), done.[K
-remote: Total 19 (delta 6), reused 0 (delta 0), pack-reused 0[K
-Unpacking objects:   5% (1/19)   Unpacking objects:  10% (2/19)   Unpacking objects:  15% (3/19)   Unpacking objects:  21% (4/19)   Unpacking objects:  26% (5/19)   Unpacking objects:  31% (6/19)   Unpacking objects:  36% (7/19)   Unpacking objects:  42% (8/19)   Unpacking objects:  47% (9/19)   Unpacking objects:  52% (10/19)   Unpacking objects:  57% (11/19)   Unpacking objects:  63% (12/19)   Unpacking objects:  68% (13/19)   Unpacking objects:  73% (14/19)   Unpacking objects:  78% (15/19)   Unpacking objects:  84% (16/19)   Unpacking objects:  89% (17/19)   Unpacking objects:  94% (18/19)   Unpacking objects: 100% (19/19)   Unpacking objects: 100% (19/19), done.
-From git-ce.rwth-aachen.de:joern.stoehler/etos-physik
-   990de30..7c23cfd  work       -> origin/work
-   c651270..dde58cd  master     -> origin/master
-Auto-merging Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb
-CONFLICT (content): Merge conflict in Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb
-Auto-merging Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb
-CONFLICT (content): Merge conflict in Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb
-Automatic merge failed; fix conflicts and then commit the result.
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git merge
-merge       mergetool   
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git mergetool 
-
-This message is displayed because 'merge.tool' is not configured.
-See 'git mergetool --tool-help' or 'git help config' for more details.
-'git mergetool' will now attempt to use one of the following tools:
-opendiff kdiff3 tkdiff xxdiff meld tortoisemerge gvimdiff diffuse diffmerge ecmerge p4merge araxis bc codecompare emerge vimdiff
-Merging:
-Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb
-Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_task.ipynb
-
-Normal merge conflict for 'Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb':
-  {local}: modified file
-  {remote}: modified file
-Hit return to start merge resolution tool (meld): ^X  
-Unable to init server: Could not connect: Connection refused
-Unable to init server: Could not connect: Connection refused
-2020-05-11 13:01:36,498 CRITICAL Gtk: gtk_icon_theme_get_for_screen: assertion 'GDK_IS_SCREEN (screen)' failed
-Traceback (most recent call last):
-  File "/usr/bin/meld", line 341, in <module>
-    setup_resources()
-  File "/usr/bin/meld", line 220, in setup_resources
-    Gtk.IconTheme.get_default().append_search_path(icon_dir)
-AttributeError: 'NoneType' object has no attribute 'append_search_path'
-Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb seems unchanged.
-Was the merge successful [y/n]? n
-merge of Hausaufgaben/Hausaufgabe_2/Hausaufgabe2_solution.ipynb failed
-Continue merging other unresolved paths [y/n]? n
-]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ git mergetool [Knan[K[K[Krm Haus[K[K[K[K[K[K[Kcd ../[K[K[K[K[K[K]0;~/etos-physik/Übungsaufgaben/Übung2[01;34m~/etos-physik/Übungsaufgaben/Übung2[00m$ ]0;~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[01;34m~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[00m$ python3 -m notebook_splitter Programmieraufgabe3.ipynb[12PUebung4.ipynb[1P.ipynb2.ipynb[C[C[C[C[C[C
-]0;~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[01;34m~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[00m$ python3 -m notebook_splitter Uebung2.ipynb
-]0;~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[01;34m~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[00m$ python3 -m notebook_splitter Uebung2.ipynb
-]0;~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[01;34m~/Etos-Physik-SS2021/Übungsaufgaben/Uebung2[00m$ 
