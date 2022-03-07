@@ -1,0 +1,5 @@
+{"backend_state":"running","kernel":"python3","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":66854912},"trust":true,"type":"settings"}
+{"id":"2407ac","input":"","pos":1,"state":"done","type":"cell"}
+{"id":"4e63bf","input":"","kernel":"python3","pos":0,"scrolled":false,"state":"done","type":"cell"}
+{"id":0,"time":1589177770126,"type":"user"}
+{"last_load":1589177809928,"type":"file"}
